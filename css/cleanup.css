@@ -1,9 +1,17 @@
+#wall {
+    background: url('../images/new-wall.jpg') no-repeat center;
+    background-size: cover;
+    background-color: brown;
+}
+
 #wall .tag-1 {
     display: none;
+    z-index: -1;
   }
   
   #wall #tag-2 {
     display: none;
+    z-index: -1;
   }
   
   #wall #tag-3 {
@@ -21,6 +29,7 @@
   
   #wall #tag-6 {
     display: none;
+    z-index: -1
   }
   
   #wall #tag-7 {
